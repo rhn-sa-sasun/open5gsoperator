@@ -12,7 +12,7 @@ spec:
     dnn: internet
     dnn2: arvr
     k8s:
-      advertise: 192.168.50.200
+      advertise: 10.0.150.39
       interface: eth0
     netattchdefinition: testuserplane
     open5gs:
@@ -28,10 +28,9 @@ spec:
       pfcp:
         interface: eth0
     upfmain:
-      addr: 192.168.50.200
+      addr: 10.0.150.39
     upfmec:
-      addr: 192.168.50.201
-    webui:
+      addr: 10.0.150.40
       image:
         pullpolicy: IfNotPresent
         repository: registry.gitlab.com/infinitydon/registry/open5gs-webui
