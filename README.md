@@ -1,4 +1,4 @@
-Tested on Openshift 4.6 
+Working on Openshift 4.8 
 ```
 
 # oc new-project open5gsoperator-system
@@ -53,7 +53,7 @@ spec:
     dnn: internet
     dnn2: arvr
     k8s:
-      advertise: 192.168.50.200
+      advertise: 10.0.150.39
       interface: eth0
     netattchdefinition: testuserplane
     open5gs:
@@ -69,9 +69,9 @@ spec:
       pfcp:
         interface: eth0
     upfmain:
-      addr: 192.168.50.200
+      addr: 10.0.150.39
     upfmec:
-      addr: 192.168.50.201
+      addr: 10.0.150.40
     webui:
       image:
         pullpolicy: IfNotPresent
