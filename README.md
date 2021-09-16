@@ -53,7 +53,7 @@ spec:
     dnn: internet
     dnn2: arvr
     k8s:
-      advertise: 10.0.150.39
+      advertise: 172.21.103.247
       interface: eth0
     netattchdefinition: testuserplane
     open5gs:
@@ -69,9 +69,9 @@ spec:
       pfcp:
         interface: eth0
     upfmain:
-      addr: 10.0.150.39
+      addr: 172.21.103.247
     upfmec:
-      addr: 10.0.150.40
+      addr: 172.21.103.251
     webui:
       image:
         pullpolicy: IfNotPresent
